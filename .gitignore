@@ -1,11 +1,11 @@
 # =============== #
 # Unity generated #
 # =============== #
-/project/Temp/
-/project/obj/
-/project/Build
-/project/Builds/
-/project/Library/
+/Pokemon AutoChess/Temp/
+/Pokemon AutoChess/obj/
+/Pokemon AutoChess/Build
+/Pokemon AutoChess/Builds/
+/Pokemon AutoChess/Library/
 sysinfo.txt
 *.stackdump
 /Assets/AssetStoreTools*
