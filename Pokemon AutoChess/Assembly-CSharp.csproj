@@ -56,7 +56,6 @@
      <Compile Include="Assets\Scripts\DataLoader.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\Registration.cs" />
-     <Compile Include="Assets\Scripts\Testscript.cs" />
      <None Include="Assets\3D Models\Eevee\Tag.txt" />
      <None Include="Assets\3D Models\Gengar\Tag.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
