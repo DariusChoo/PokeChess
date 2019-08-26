@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Charizard
+  - Charmander
+  - Eevee
+  - Gengar
   layers:
   - Default
   - TransparentFX

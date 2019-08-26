@@ -363,14 +363,22 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51207151e724a894b8fff53dc4daa9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   units: []
-  index3: units[0]
-  index2: 'Unit Synergy:'
+  unitName: 
+  cost: 0
+  synergy: 
+  synergy2: 
+  HP: 0
+  mana: 0
+  ability: 
+  attackSpeed: 0
+  damage: 0
+  armor: 0
 --- !u!4 &1429854337
 Transform:
   m_ObjectHideFlags: 0
@@ -1989,7 +1997,7 @@ GameObject:
   - component: {fileID: 1441712639}
   m_Layer: 0
   m_Name: Eevee
-  m_TagString: Untagged
+  m_TagString: Eevee
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2901,13 +2909,37 @@ GameObject:
   m_Component:
   - component: {fileID: 951097175539373994}
   - component: {fileID: 951097175527507592}
+  - component: {fileID: 951097175539010443}
   m_Layer: 0
   m_Name: Charmander
-  m_TagString: Untagged
+  m_TagString: Charmander
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &951097175539010443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951097175539010442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51207151e724a894b8fff53dc4daa9b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  units: []
+  unitName: 
+  cost: 0
+  synergy: 
+  synergy2: 
+  HP: 0
+  mana: 0
+  ability: 
+  attackSpeed: 0
+  damage: 0
+  armor: 0
 --- !u!1 &951097175539010444
 GameObject:
   m_ObjectHideFlags: 0
@@ -5992,7 +6024,7 @@ GameObject:
   - component: {fileID: 2078295571359565067}
   m_Layer: 0
   m_Name: Charmander
-  m_TagString: Untagged
+  m_TagString: Charmander
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9745,7 +9777,7 @@ GameObject:
   - component: {fileID: 2497503532933802102}
   m_Layer: 0
   m_Name: Charizard
-  m_TagString: Untagged
+  m_TagString: Charizard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11419,7 +11451,7 @@ GameObject:
   - component: {fileID: 4481102343029607671}
   m_Layer: 0
   m_Name: Charizard
-  m_TagString: Untagged
+  m_TagString: Charizard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13113,13 +13145,37 @@ GameObject:
   m_Component:
   - component: {fileID: 7245906688297218145}
   - component: {fileID: 7245906688291774835}
+  - component: {fileID: 7245906688297053188}
   m_Layer: 0
   m_Name: Gengar
-  m_TagString: Untagged
+  m_TagString: Gengar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7245906688297053188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7245906688297053187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51207151e724a894b8fff53dc4daa9b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  units: []
+  unitName: 
+  cost: 0
+  synergy: 
+  synergy2: 
+  HP: 0
+  mana: 0
+  ability: 
+  attackSpeed: 0
+  damage: 0
+  armor: 0
 --- !u!1 &7245906688297053189
 GameObject:
   m_ObjectHideFlags: 0
