@@ -223,10 +223,10 @@ RectTransform:
   m_Father: {fileID: 915385697}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.425, y: 0.6356679}
-  m_AnchorMax: {x: 0.6237494, y: 0.68883306}
-  m_AnchoredPosition: {x: -0.5, y: -0.5}
-  m_SizeDelta: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.425, y: 0.6695084}
+  m_AnchorMax: {x: 0.62375, y: 0.72700006}
+  m_AnchoredPosition: {x: -0.5, y: -0.80000305}
+  m_SizeDelta: {x: 1, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &304437338
 MonoBehaviour:
@@ -452,10 +452,10 @@ RectTransform:
   m_Father: {fileID: 915385697}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.4087367, y: 0.37350282}
-  m_AnchorMax: {x: 0.605, y: 0.43216512}
-  m_AnchoredPosition: {x: -0.5, y: 1}
-  m_SizeDelta: {x: 3, y: -2}
+  m_AnchorMin: {x: 0.40625003, y: 0.37350282}
+  m_AnchorMax: {x: 0.60625, y: 0.42774582}
+  m_AnchoredPosition: {x: 0, y: 0.69999695}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &904033035
 MonoBehaviour:
@@ -654,6 +654,7 @@ MonoBehaviour:
   nameField: {fileID: 1925188989}
   pwdField: {fileID: 936355378}
   submitButton: {fileID: 904033035}
+  errMsg: {fileID: 0}
 --- !u!1 &936355376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1370,10 +1371,10 @@ RectTransform:
   m_Father: {fileID: 915385697}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -44}
-  m_SizeDelta: {x: -800, y: -546}
+  m_AnchorMin: {x: 0.31625003, y: 0.59000003}
+  m_AnchorMax: {x: 0.65624315, y: 0.6582542}
+  m_AnchoredPosition: {x: 11, y: -99}
+  m_SizeDelta: {x: -272, y: -132}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1925188987
 GameObject:

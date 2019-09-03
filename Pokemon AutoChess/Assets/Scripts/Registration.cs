@@ -10,6 +10,9 @@ public class Registration : MonoBehaviour
     public InputField pwdField;
     public Button submitButton;
 
+    //Error message
+    public GUIText errMsg;
+
     public void CallRegister()
     {
         StartCoroutine(Register());
