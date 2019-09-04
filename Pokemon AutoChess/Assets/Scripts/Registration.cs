@@ -26,7 +26,7 @@ public class Registration : MonoBehaviour
         Form.AddField("password", pwdField.text);
 
         //Finds the php route where data is stored
-        WWW www = new WWW("http://localhost/sqlconnect/register.php");
+        WWW www = new WWW("http://localhost/PokeChess/userdata.php");
         yield return www;
 
         //Error Handling
