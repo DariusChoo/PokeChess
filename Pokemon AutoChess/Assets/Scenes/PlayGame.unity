@@ -3235,7 +3235,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.121471405, y: -0.20864868}
+  m_AnchoredPosition: {x: 0.12147522, y: -0.20864868}
   m_SizeDelta: {x: -0.24277496, y: 0.060012817}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &149607277
@@ -7417,7 +7417,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 82.06003, y: -0.97754}
+  m_AnchoredPosition: {x: 82.06003, y: -0.97753906}
   m_SizeDelta: {x: -178.37, y: -74.435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &335434586
@@ -8113,7 +8113,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 359250285}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 686852085}
+        m_MethodName: ShopMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &359250285
@@ -8165,7 +8176,7 @@ GameObject:
   - component: {fileID: 360111649}
   - component: {fileID: 360111648}
   m_Layer: 5
-  m_Name: '[E]LvLogo'
+  m_Name: '[E]UI_LvLogo'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11026,7 +11037,7 @@ GameObject:
   - component: {fileID: 493304359}
   - component: {fileID: 493304358}
   m_Layer: 5
-  m_Name: MaxHealthNum
+  m_Name: UI_MaxHealthNum
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11643,7 +11654,7 @@ GameObject:
   - component: {fileID: 510601897}
   - component: {fileID: 510601896}
   m_Layer: 5
-  m_Name: '[E]HealthNum'
+  m_Name: '[E]UI_Health_Num'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15425,7 +15436,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.121471405, y: -0.2086792}
+  m_AnchoredPosition: {x: 0.12147522, y: -0.2086792}
   m_SizeDelta: {x: -0.24277496, y: 0.060012817}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &669789931
@@ -15931,6 +15942,7 @@ GameObject:
   - component: {fileID: 686852083}
   - component: {fileID: 686852082}
   - component: {fileID: 686852081}
+  - component: {fileID: 686852085}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -16022,6 +16034,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &686852085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686852080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c7d92d2423c5b24f8873af551ddc0db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LvNumUIText: {fileID: 1952202412}
+  HealthNumUIText: {fileID: 510601896}
+  TopRoundCountUIText: {fileID: 1903743327}
 --- !u!1001 &688714671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21103,7 +21130,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.374, y: 0.24000001}
   m_AnchorMax: {x: 0.661, y: 1}
-  m_AnchoredPosition: {x: -0.028713226, y: -0.099998474}
+  m_AnchoredPosition: {x: -0.028717041, y: -0.099998474}
   m_SizeDelta: {x: 142, y: -0.80000305}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &942653386
@@ -24168,7 +24195,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.121471405, y: -0.20866394}
+  m_AnchoredPosition: {x: 0.12147522, y: -0.20866394}
   m_SizeDelta: {x: -0.24277496, y: 0.060012817}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1095692563
@@ -33141,7 +33168,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.121471405, y: -0.2086792}
+  m_AnchoredPosition: {x: 0.12147522, y: -0.2086792}
   m_SizeDelta: {x: -0.24277496, y: 0.060012817}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1455121582
@@ -34848,7 +34875,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.121471405, y: -0.20866394}
+  m_AnchoredPosition: {x: 0.12147522, y: -0.20866394}
   m_SizeDelta: {x: -0.24277496, y: 0.060012817}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1552419104
@@ -41785,7 +41812,7 @@ GameObject:
   - component: {fileID: 1952202413}
   - component: {fileID: 1952202412}
   m_Layer: 5
-  m_Name: '[E]LvNumberText'
+  m_Name: '[E]UI_Lv._Num'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43262,7 +43289,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2000896554}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 686852085}
+        m_MethodName: ItemMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2000896554
@@ -44260,7 +44298,7 @@ GameObject:
   - component: {fileID: 2047577448}
   - component: {fileID: 2047577447}
   m_Layer: 5
-  m_Name: Lv. Text
+  m_Name: UI_Lv._Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44495,7 +44533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2053933267}
   m_Layer: 5
-  m_Name: Player_Level
+  m_Name: UI_Player_Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
